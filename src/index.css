@@ -10,15 +10,9 @@
   font-size: 30px;
   max-width: 400px;
   margin: 0 auto;
-  padding-bottom: 25%;
-  padding-top: 10%;
+  padding: auto;
   border: none;
   border-radius:50px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background: rgb(4,1,56);
-  background: rgb(2,0,32);
-  background: radial-gradient(circle, rgba(2,0,32,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 body{
   
