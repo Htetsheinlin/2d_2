@@ -39,14 +39,18 @@ function App() {
         <label htmlFor="c">Select your percentage</label>
         <br></br>
         <select id="c" value={c} onChange={(e) => setC(e.target.value)}>
-          <option value="1">1</option>
-          <option value="1.25">1.25</option>
-          <option value="1.5">1.5</option>
-          <option value="2">2</option>
-          <option value="2.5">2.5</option>
-          <option value="5">5</option>
-          <option value="10">10</option>
-          <option value="12.5">12.5</option>
+          <option value="2">2(SG+KG)</option>
+          <option value="3.5">3.5(NT+K)</option>
+          <option value="12">12(YLK+KWYM+AS)</option>
+          
+          <option value="0.75">0.75(KWYM,KG)</option>
+          <option value="1">1(K)</option>
+          <option value="1.25">1.25(YLK,SG)</option>
+          <option value="2.5">2.5(NT)</option>
+          <option value="10">10(AS)</option>
+
+          <option value="17.5">17.5(ALL)</option>
+          
         </select>
       </div>
       <br></br>
