@@ -55,6 +55,7 @@ function App() {
       </div>
       <br></br>
       <button onClick={handleCalculate}>$</button>
+      <br></br>
       <div>{result}</div>
     </div>
   );

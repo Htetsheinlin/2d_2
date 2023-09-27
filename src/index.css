@@ -69,8 +69,9 @@ button:hover {
 
 
 div.result {
-  margin-top: 40px;
+  margin-top: 5%px;
   font-weight: bold;
+  font-size: 40px;
 }
 
 @media (max-width: 600px) {
