@@ -17,7 +17,7 @@ function App() {
       setResult('Please enter valid numbers');
     } else {
       // Perform the calculation
-      const calculatedResult = ((aFloat - (aFloat * 0.18)) - (bFloat * 80)) * (cFloat / 100);
+      const calculatedResult = ((aFloat - (aFloat * 0.185)) - (bFloat * 80)) * (cFloat / 100);
       setResult(`Result: ${calculatedResult.toFixed(2)}`);
     }
   };
